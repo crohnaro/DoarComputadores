@@ -34,7 +34,7 @@ export default function Home( ) {
         
         {data && <> 
           <h2 className={styles.apiStatus}>
-          <div style={{color: data.alive ? 'green' : 'red'}}>Status : {data.alive ? 'API online' : 'API offline'}</div>
+          <p style={{color: data.alive ? 'green' : 'red'}}>Status : {data.alive ? 'API online' : 'API offline'}</p>
           </h2>
         </>
         }
